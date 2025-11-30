@@ -3,26 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Индекс Драйв - Аренда автомобилей</title>
+    <!-- <title>Индекс Драйв - Аренда автомобилей</title> -->
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- Header -->
     <header class="header">
-        <!-- <div class="header_2">
-        </div> -->
             <div class="container">
-                <!-- <div class="header__top"> -->
-                    <!-- <div class="logo">
-                        
-                    </div> -->
                     <nav class="nav">
                         <h1>Индекс Драйв</h1>
                         <a href="#">Филиалы</a>
                         <a href="#">Личный кабинет</a>
                         <a href="#">Бронирование</a>
                     </nav>
-                <!-- </div> -->
             </div>
        
     </header>
@@ -30,38 +23,42 @@
     <!-- Hero Section -->
 
     <section class="hero">
+            <div class="container">
+                <p class="hero__subtitle1">На любой случай, любой автомобиль</p>
+                <p class="hero__subtitle2">Ценим вас и ваше время</p>
+            </div>   
+            <div class="container">
+                <p class="hero__subtitle3">Для пользователей старше 23 лет<br>с опытом вождения 5 лет и больше</p>
+            </div>
+            
+            
         
-        <div class="container">
-            <h2>На любой случай, любой автомобиль</h2>
-            <p class="hero__subtitle">Ценим вас и ваше время</p>
-            <p class="hero__conditions">Для пользователей старше 23 лет с опытом вождения 5 лет и больше</p>
-        </div>
     </section>
 
     <!-- Car Selection Form -->
+
     <div class="car-selection">
-        <h3>Выберите авто</h3>
         <div class="selection-grid">
+            <h3>Выберите авто</h3>
             <div class="form-group">
-                <label>Марка</label>
+                <!-- <label>Марка</label> -->
                 <select>
-                    <option>Все марки</option>
+                    <option>Марка</option>
+                </select>
+                <!-- <label>Класс</label> -->
+                <select>
+                    <option>Класс</option>
                 </select>
             </div>
             <div class="form-group">
-                <label>Класс</label>
+                <!-- <label>Модель</label> -->
                 <select>
-                    <option>Все классы</option>
+                    <option>Модель</option>
                 </select>
             </div>
-            <div class="form-group">
-                <label>Модель</label>
-                <select>
-                    <option>Все модели</option>
-                </select>
-            </div>
+            <button class="search-btn">Поиск</button>
         </div>
-        <button class="search-btn">Поиск</button>
+       
     </div>
 
 
@@ -80,7 +77,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <!-- <footer class="footer">
         <div class="container">
             <div class="footer__nav">
                 <div class="footer__column">
@@ -103,6 +100,6 @@
                 <span>+7 (800) 555-35-35</span>
             </div>
         </div>
-    </footer>
+    </footer> -->
 </body>
 </html>
